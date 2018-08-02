@@ -1,6 +1,6 @@
 {
   "name": "baton-vcr-serverless-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "John Gilbert <john.gilbert@danteinc.com> (danteinc.com)",
   "license": "ISC",
   "main": "index.js",
@@ -15,8 +15,10 @@
     "type": "git",
     "url": "https://github.com/jgilbert01/baton-vcr-serverless-plugin.git"
   },
+  "devDependencies": {
+    "serverless": "latest"
+  },
   "dependencies": {
-    "serverless": "latest",
     "baton-vcr-replay-for-aws-sdk": "latest"
   }
 }
