@@ -9,6 +9,7 @@ class ServerlessVcrReplay {
 
     this.hooks = {
       'before:offline:start:init': this.initReplay.bind(this),
+      'before:offline:start': this.initReplay.bind(this),
     };
   }
 
